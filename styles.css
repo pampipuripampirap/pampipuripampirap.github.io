@@ -1,4 +1,4 @@
-/* Общие стили */
+/* Общие стили для всего сайта */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -10,34 +10,39 @@ body {
     padding: 0;
 }
 
+/* Стили для заголовков <h1> на всех страницах */
 h1 {
     color: white; /* Белый цвет для главного заголовка */
 }
 
+/* Стили для подзаголовков <h2> */
 h2 {
-    color: #d32f2f;
+    color: #d32f2f; /* Красный цвет для подзаголовков */
 }
 
+/* Стили для блока с навигацией */
 header {
-    background-color: #1e88e5;
+    background-color: #1e88e5; /* Синий фон для шапки */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+/* Контейнер для содержимого страницы */
 .container {
     width: 80%;
     margin: 0 auto;
     flex-grow: 1;
 }
 
-/* Стили для навигации */
+/* Стили для навигационных ссылок */
 nav a {
     color: white; /* Белый цвет для ссылок */
     margin: 0 15px;
     text-decoration: none;
 }
 
+/* Стили для навигационных ссылок при наведении */
 nav a:hover {
     text-decoration: underline;
 }
@@ -45,18 +50,19 @@ nav a:hover {
 /* Стили для футера */
 footer {
     text-align: center;
-    background-color: #1e88e5;
+    background-color: #1e88e5; /* Синий фон для футера */
     color: white;
     padding: 10px;
     margin-top: 20px;
 }
 
-/* Новый стиль для центрирования контента */
+/* Стили для центрирования контента */
 .center-content {
-    text-align: center;
+    text-align: center; /* Центрируем текст */
     margin-top: 50px;
 }
 
+/* Стили для изображения на главной странице */
 .new-year-card {
     display: block;
     margin: 20px auto;
@@ -64,26 +70,28 @@ footer {
     height: auto;
 }
 
-/* Таблицы */
+/* Стили для таблиц */
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Убираем промежутки между ячейками */
 }
 
+/* Стили для границ таблицы и ячеек */
 table, th, td {
     border: 1px solid #ddd;
 }
 
+/* Стили для ячеек таблицы */
 th, td {
     padding: 10px;
     text-align: left;
 }
 
-/* Списки */
+/* Стили для списков */
 ul {
-    list-style-type: none;
+    list-style-type: none; /* Убираем маркеры у списка */
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 5px 0; /* Отступы между пунктами списка */
 }
